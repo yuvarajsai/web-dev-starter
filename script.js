@@ -1,11 +1,20 @@
-let numbers = [2,42.58,2];
+let numbers = [2,4,3];
+numbers.push(23,3,6,3,7,4);
+numbers.pop();
+numbers.shift();
+numbers.unshift(1);
+
 console.log(numbers);
+console.log(numbers.indexOf(23));
+console.log(numbers.indexOf(3));
+
+
 
 //DOM//
 let salary = Symbol();
 let age = 12;
 
-console.log(Math.PI);
+//console.log(Math.PI);
 
 let person = {
     name: "Yuvi",
